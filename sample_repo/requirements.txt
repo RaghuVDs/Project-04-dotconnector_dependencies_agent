@@ -1,0 +1,13 @@
+# Runtime + dev dependencies for the Enterprise Redaction Utility.
+# These pins intentionally match the DotConnector findings so the agent has
+# something real to remediate.
+flask==3.0.0
+requests==2.31.0
+werkzeug==3.0.6
+pandas==2.0.2
+numpy==1.26.2
+
+# dev / test
+pytest==8.2.0
+pytest-runner==6.0.1
+setuptools==82.0.1

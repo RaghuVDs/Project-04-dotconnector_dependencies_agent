@@ -1,0 +1,18 @@
+[run]
+branch = True
+omit =
+    */.venv/*
+    */tests/*
+    */sample_repo/*
+    */.run/*
+
+[report]
+show_missing = True
+precision = 2
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+    raise NotImplementedError
+    except ModuleNotFoundError
+    ^\s*\.\.\.\s*$
+    def __repr__
